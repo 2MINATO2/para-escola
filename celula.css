@@ -12,14 +12,14 @@
         margin: 0;
         padding: 0;
     }
-    header{
-        height: 350px;
-    }
     ul{
         display: block;
+        margin: 10px;
     }
     li{
-        width: 220px;
+       width: 150px;
+       margin: auto;
+       margin-top: 10px;
     }
     #men{
         display: block;
@@ -27,10 +27,5 @@
         color: white;
         border: 1px solid white;
         cursor: pointer;  
-    }
-    #imagen{
-        margin: 20px;
-        width: 150px;
-        height: 300px;
     }
 }

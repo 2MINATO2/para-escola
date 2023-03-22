@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="celula.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Inportancia da água</title>
+</head>
+<body onresize="muda()">
+    <header>
+            <h1>Água É Vida</h1>
+        <span id="men" class="material-symbols-outlined" onclick="abri()">
+            menu
+            </span>
+        <menu id="iten">
+          <ul>
+            <li><a href="porcentagem.html">porcentagem</a></li>
+            <li><a href="poluiçao.html">poluição</a></li>
+            <li><a href="index.html">Principal</a></li>
+          </ul>
+        </menu> 
+    </header>
+    <main>
+       
+            <div class="texto">
+                <h2>O que falar sobre a escassez de água?</h2>
+                <p>
+                    A escassez de água no mundo é agravada em virtude da desigualdade social e da falta de manejo e usos sustentáveis dos recursos naturais. De acordo com os números apresentados pela ONU – Organização das Nações Unidas – fica claro que controlar o uso da água significa deter poder.
+                </p>
+            </div>
+
+            <div class="texto">
+                <h2>Quais são as causas da escassez de água?</h2>
+                <p>
+                    Marcia também reforça que as causas mais comuns para a crise hídrica, tanto no mundo quanto no Brasil, são: desperdício de água; diminuição do nível de chuvas; aumento do consumo de água devido ao crescimento populacional, industrial e da agricultura.
+                </p>
+            </div>
+
+            <div class="rio">
+                <h2>O que pode ser feito para evitar a escassez de água?</h2>
+                <h3>Conheça quais são elas:</h3>
+                <p>
+                    evitar o desperdício de água ao tomar banho, lavar louça e escovar os dentes;
+                    ficar atento quanto aos vazamentos internos;
+                    trocar a mangueira pela vassoura para a limpeza de áreas externas;
+                    não jogar lixo em rios, lagos e praias;
+                    praticar e incentivar o consumo sustentável;</p>
+            </div>
+
+            <div class="texto">
+                <h2>Quais são as consequências da escassez de água?</h2>
+                <p>
+                    Exemplos mais comuns destas doenças são as diarreias, hepatite A, febres tifoides e paratifoide, cólera e parasitoses. Além disso, pouca água afeta a higiene das pessoas e dos locais onde elas vivem, o que também é fator de risco para outras doenças, como micoses e conjuntivites.
+                </p>
+            </div>
+
+
+            <div class="texto">
+                <h2>Como resolver o problema da escassez?</h2>
+                <p>
+                    Uma das soluções encontradas pela humanidade para lidar com a escassez de recursos é o sistema de preços. Ao se cobrar algo de valor (dinheiro, ouro, entre outros) em troca de recursos, bens ou serviços escassos, conseguimos adequar a demanda à oferta existente.
+                </p>
+            </div>
+            <div class="texto"> 
+                <h2>Como está a escassez de água no Brasil?</h2>
+                <p>
+                    Um dos principais fatores que levaram à crise hídrica no país é de ordem geográfica, uma vez que os reservatórios que existem no Brasil não são bem distribuídos pelo território. A região Norte, por exemplo, que possui 70% da água do país, é também a região com um dos menores índices demográficos.
+                </p>
+            </div>
+            <div class="texto">
+                <h2>O que a escassez gera?</h2>
+                <p>
+                    Na maioria dos casos, a escassez obriga as empresas a aumentar o preço de um produto até que ele atinja o equilíbrio de mercado. Às vezes, porém, as forças externas causam um prolongamento da escassez em outras palavras, há algo impedindo o aumento dos preços ou o equilíbrio da oferta e da demanda.</p>
+            </div>
+    </main>
+  
+    <footer>
+     <p>Escola Estadual Professora Gabriela Neves</p>
+    </footer>
+    <script>
+        function muda(){
+            if(window.innerWidth >= 768){
+                iten.style.display = 'block'
+            }else{
+                iten.style.display = 'none'
+            }
+        }
+
+        function abri(){
+            if(iten.style.display == 'block'){
+                iten.style.display = 'none'
+            }else{
+                iten.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="celula.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Inportancia da água</title>
+</head>
+<body onresize="muda()">
+    <header>
+            <h1>Água É Vida</h1>
+        <span id="men" class="material-symbols-outlined" onclick="abri()">
+            menu
+            </span>
+        <menu id="iten">
+          <ul>
+            <li><a href="poluiçao.html">poluição</a></li>
+            <li><a href="escassez.html">escassez</a></li>
+            <li><a href="index.html">Principal</a></li>
+          </ul>
+        </menu> 
+    </header>
+    <main>
+     
+  
+        <div class="texto">
+            <p>
+                Do total de água disponível no planeta, 97% estão nos mares e oceanos (água salgada) e apenas 3% são água doce. Dessa pequena porcentagem, pouco mais de 2% estão nas geleiras (em estado sólido) e, portanto, menos de 1% está disponível para consumo.
+            </p>
+        </div>
+        <div class="texto">
+            <h2>Qual é a porcentagem da água?</h2>
+            <p>
+                A água cobre cerca de 70% da superfície da Terra e totaliza um volume de 1386 milhões de quilómetros cúbicos ([1]).
+            </p>
+        </div>
+        <div class="porsentagem">
+            <h2>Onde falta mais água no Brasil?</h2>
+            <p>
+                O ranking do Aqueduct identifica essas áreas principais. Ele mostra que, no Brasil, regiões da Bahia, Piauí, Ceará e Rio Grande do Norte sofrem com níveis “extremamente altos” de risco de crise hídrica, um nível semelhante ao dos países do Oriente Médio.
+            </p>
+        </div>
+        <div class="texto">
+            <h2>O que é água a 2%?</h2>
+            <p>
+                É a água encontrada em rios, lagos e ribeiras. Para ser consumida, em geral, precisa passar por um processo de tratamento. Esse é o tipo de água apropriado para o consumo humano, a agricultura, a pecuária, a indústria. Só cerca de 2% da água encontrada em nosso planeta é doce
+            </p>
+        </div>
+        <div class="texto">
+            <h2>Qual é a distribuição de água no planeta?</h2>
+            <p>
+                Enquanto 97% da água da Terra é salgada e está nos aceanos e nos mares; dos 3% restantes 2,2% estão na forma de gelo, nos polos Norte e Sul; 0,6% dela está embaixo da camada superficial do solo; 0,1% está na atmosfera; e somente 0,1% dela está disponível nos rios e lagos do planeta.
+            </p>
+        </div>
+        <div class="texto">
+            <h2>Qual é a porcentagem de água potável no Brasil?</h2>
+            <p>
+                12%
+                Por sorte, o Brasil possui a maior reserva mundial de água potável, com cerca de 12% do montante total, o que não necessariamente livra o país de sofrer com a falta desse importante recurso natural.
+            </p>
+        </div>
+        <div class="texto">
+            <h2>Qual é a porcentagem de água potável no planeta?</h2>
+            <p>
+                Do total de água disponível no planeta, 97% estão nos mares e oceanos (água salgada) e apenas 3% são água doce. Dessa pequena porcentagem, pouco mais de 2% estão nas geleiras (em estado sólido) e, portanto, menos de 1% está disponível para consumo.
+            </p>
+        </div>
+
+       <p>informações tirada do site : <a href="https://www.wwf.org.br/natureza_brasileira/areas_prioritarias/pantanal/dia_da_agua/">WWF brasil</a></p>
+    </main>
+  
+    <footer>
+     <p>Escola Estadual Professora Gabriela Neves</p>
+    </footer>
+    <script>
+        function muda(){
+            if(window.innerWidth >= 768){
+                iten.style.display = 'block'
+            }else{
+                iten.style.display = 'none'
+            }
+        }
+
+        function abri(){
+            if(iten.style.display == 'block'){
+                iten.style.display = 'none'
+            }else{
+                iten.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
