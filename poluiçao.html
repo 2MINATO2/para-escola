@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="celula.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Inportancia da água</title>
+</head>
+<body onresize="muda()">
+    <header>
+            <h1>Água É Vida</h1>
+        <span id="men" class="material-symbols-outlined" onclick="abri()">
+            menu
+            </span>
+        <menu id="iten">
+          <ul>
+            <li><a href="#">porcentagem</a></li>
+            <li><a href="#">escassez</a></li>
+            <li><a href="index.html">Principal</a></li>
+          </ul>
+        </menu> 
+    </header>
+    <main>
+        <h2>Poluição da Água</h2><br>
+        <p>
+            A poluição da água é resultado das alterações de sua qualidade, o que a torna imprópria para o consumo e prejudicial aos organismos vivos que nela habitam. <br>
+            Como as suas propriedades são alteradas, a água poluída traz prejuízos ao ambiente natural e ao homem
+        </p> <br>
+        
+        <h3>Causas da poluição da água</h3>
+        <p>
+            A ação humana é a principal responsável pela poluição da água. <br>
+            
+            As principais fontes de poluição da água são as atividades agrícolas, atividades industriais, atividades domésticas e contaminação por resíduos de cadáveres. <br>
+        </p> <br>
+        
+        <h4>Atividades agrícolas</h4>
+        <p>
+            A atividade agrícola é potencialmente poluidora, porque os pesticidas e fertilizantes químicos podem infiltrar no solo e atingir o lençol freático. <br>
+            
+            As substâncias utilizadas na composição dos fertilizantes e pesticidas podem ser dissolvidas na chuva e gerar impactos ambientais significativos no ecossistema.
+        </p>
+        <p>mais informações no site: <a href="https://www.todamateria.com.br/poluicao-da-agua/" target="_blank">Toda materia</a></p>
+
+        <div id="imagen"><img src="consequencia-poluicao-agua.png" alt="poluicao-da-agua"></div>
+    </main>
+    <footer>
+     <p>Escola Estadual Professora Gabriela Neves</p>
+    </footer>
+    <script>
+        function muda(){
+            if(window.innerWidth >= 768){
+                iten.style.display = 'block'
+            }else{
+                iten.style.display = 'none'
+            }
+        }
+
+        function abri(){
+            if(iten.style.display == 'block'){
+                iten.style.display = 'none'
+            }else{
+                iten.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
